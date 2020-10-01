@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<body>
+    <script>
+        window.onload = function(){
+            var animal = {};
+
+            animal.nome = [];
+            animal.peso = '20kg';
+            animal.idade = 10;
+            animal['idade'] = 11;
+
+            animal.nome[0] = 'Pingo';
+            animal.nome[1] = 'Maya';
+
+            console.log(animal.nome[1]+" tem "+animal.peso+" e "+animal['idade']+" anos.");
+        }
+    </script>
+</body>
+</html>
