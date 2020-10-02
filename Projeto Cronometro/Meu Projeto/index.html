@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio id="sound" src="audio/alarm.mp3" style="display: none;"></audio>
+    <div id="display">
+        <h1></h1>
+    </div><!--Display-->
+    <section>
+        <div class="center">
+            <div class="wrapper-timer">
+                <div class="hours w33">
+                    <h2>Horas</h2>
+                    <select name="hour" id="hour"></select>
+                </div><!--Hours-->
+                <div class="minutes w33">
+                    <h2>Minutos</h2>
+                    <select name="minute" id="minute"></select>
+                </div><!--Minutes-->
+                <div class="secounds w33">
+                    <h2>Segundos</h2>
+                    <select name="secound" id="secound"></select>
+                </div><!--Secounds-->
+            </div><!--Wrapper-Timer-->
+
+            <button id="start">Start</button>
+        </div><!--Center-->
+    </section>
+
+    <script src="js/function.js"></script>
+</body>
+</html>
